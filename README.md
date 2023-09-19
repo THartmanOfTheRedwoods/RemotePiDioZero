@@ -1,6 +1,14 @@
 # Environment Setup
 
+* You must first install and utilize **macfuse** and **sshfuse** from here [osxfuse](https://osxfuse.github.io/)
+* Linux systems can simple directly install **sshfs** from package repositories.
+    * Typically, **fuse-sshfs** for RedHat based systems, and **sshfs** for Ubuntu/Debian based systems.
+* To use SSHFS on Windows, download and install:
+    * The latest stable version of [WinFS](https://github.com/winfsp/winfsp).
+    * The newest stable version of [SSHFS-Win](https://github.com/winfsp/sshfs-win) is compatible with your system.
+    * Optionally, the [SSHFS-Win Manager](https://github.com/evsar3/sshfs-win-manager) frontend interface is available as well. The interface provides a convenient GUI interface for establishing and managing connections.
 * Only the .env files should need to be changed for MacOS and Linux environments to make this functional.
+    * On Windows, you'll need to do a bit more work.
 
 ## Remote Scripts
 
@@ -16,7 +24,7 @@
 * Use the **mount.sh** script to make sure your pi directories are mounted via **sshfuse** to your proper local directories.
 * Use the **remote.sh** script to compile and run your remote build and run scripts.
 
-## Manually Setting up Project Mounts
+## Manually Setting up Project Mounts on MacOS
 
 ### Manually Mounting SRC Directory
 
