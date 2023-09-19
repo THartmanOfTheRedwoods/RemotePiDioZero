@@ -1,6 +1,6 @@
 # Environment Setup
 
-* You must first install and utilize **macfuse** and **sshfuse** from here [osxfuse](https://osxfuse.github.io/)
+* On MacOS, you must first install and utilize **macfuse** and **sshfuse** from here [osxfuse](https://osxfuse.github.io/)
 * Linux systems can simple directly install **sshfs** from package repositories.
     * Typically, **fuse-sshfs** for RedHat based systems, and **sshfs** for Ubuntu/Debian based systems.
 * To use SSHFS on Windows, download and install:
